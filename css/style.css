@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(44,62,80);
+}
+
+.nav-color {
+    background-color: rgb(52,73,94);
+}
+
+.songs {
+    color: white;
+}
+
+.ads {
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgb(44,62,80);
+    border: none;
+}
+
+.card h5, p {
+    color: white;
+}
+
+.card a:nth-child(1){
+    color: rgb(221,93,94);
+}
+.card a:nth-child(1):hover{
+    color: rgb(0,123,255);
+}
+
+.btnColor {
+    background-color: rgb(221,93,94);
+}
+
+.litter {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.foot {
+    background-color: rgb(52,73,94);
+}
+
+.hov {
+    font-size: 14px;
+    color: rgb(192, 190, 190);
+}
+.hov:hover {
+    color: rgb(228, 228, 228);
+}
+
+.txtColor{
+    color:rgb(221,93,94);
+}
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+#topBtn {
+    display: none;
+}
+
+@media (min-width: 500px){
+    .nav-color img {
+        width: 60%;
+    }
+    .entrance {
+        display: inherit;
+    }
+    .card {
+        height: 360px;
+    }
+    
+}
+
+@media (min-width:500px) and (max-width: 900px)
+    {.nav-color a {
+    font-size: 12px;
+    }
+    .entrance {
+        display: none;
+    }
+
+    .card {
+        height: 430px;
+    }
+    .recomments {
+        display: none;
+    }
+}
